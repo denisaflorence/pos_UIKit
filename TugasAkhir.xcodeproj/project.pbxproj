@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923E9D6F2991392100F69722 /* BarangMasukTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D6E2991392100F69722 /* BarangMasukTableViewCell.swift */; };
+		923E9D712991400A00F69722 /* TransaksiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D702991400A00F69722 /* TransaksiTableViewCell.swift */; };
+		923E9D732992544700F69722 /* TambahBarangMasukViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D722992544700F69722 /* TambahBarangMasukViewController.swift */; };
+		923E9D752992551200F69722 /* TambahBarangMasukViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D742992551200F69722 /* TambahBarangMasukViewModel.swift */; };
+		923E9D77299259FF00F69722 /* StockOpnameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D76299259FF00F69722 /* StockOpnameTableViewCell.swift */; };
+		923E9D792992812500F69722 /* LaporanPiutangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E9D782992812500F69722 /* LaporanPiutangTableViewCell.swift */; };
+		9290FD062995332C005CD4B4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FD052995332C005CD4B4 /* CoreDataManager.swift */; };
+		9290FD082996605E005CD4B4 /* PembeliCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FD072996605E005CD4B4 /* PembeliCoreData.swift */; };
+		92A385712988FB74003973EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385702988FB74003973EA /* AppDelegate.swift */; };
+		92A385752988FB74003973EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385742988FB74003973EA /* ViewController.swift */; };
+		92A385782988FB74003973EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A385762988FB74003973EA /* Main.storyboard */; };
+		92A3857B2988FB74003973EA /* TugasAkhir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92A385792988FB74003973EA /* TugasAkhir.xcdatamodeld */; };
+		92A3857D2988FB76003973EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A3857C2988FB76003973EA /* Assets.xcassets */; };
+		92A385802988FB76003973EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A3857E2988FB76003973EA /* LaunchScreen.storyboard */; };
+		92A3858B2988FB76003973EA /* TugasAkhirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A3858A2988FB76003973EA /* TugasAkhirTests.swift */; };
+		92A385952988FB76003973EA /* TugasAkhirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385942988FB76003973EA /* TugasAkhirUITests.swift */; };
+		92A385972988FB76003973EA /* TugasAkhirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385962988FB76003973EA /* TugasAkhirUITestsLaunchTests.swift */; };
+		92A385B029894622003973EA /* ProdukViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385AF29894622003973EA /* ProdukViewController.swift */; };
+		92A385B22989462F003973EA /* PembeliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385B12989462F003973EA /* PembeliViewController.swift */; };
+		92A385B42989463B003973EA /* TransaksiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385B32989463B003973EA /* TransaksiViewController.swift */; };
+		92A385B629894646003973EA /* StockOpnameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385B529894646003973EA /* StockOpnameViewController.swift */; };
+		92A385B829894654003973EA /* LaporanPenjualanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385B729894654003973EA /* LaporanPenjualanViewController.swift */; };
+		92A385BA2989465F003973EA /* LaporanPembeliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385B92989465F003973EA /* LaporanPembeliViewController.swift */; };
+		92A385BC2989466A003973EA /* LaporanPiutangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385BB2989466A003973EA /* LaporanPiutangViewController.swift */; };
+		92A385C129894B3E003973EA /* HelloCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92A385BF29894B3E003973EA /* HelloCoreDataModel.xcdatamodeld */; };
+		92A385C8298B8468003973EA /* BarangMasukViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385C7298B8468003973EA /* BarangMasukViewController.swift */; };
+		92A385CB298B8650003973EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385CA298B8650003973EA /* HomeViewController.swift */; };
+		92A385CF298B9820003973EA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385CE298B9820003973EA /* HomeTableViewCell.swift */; };
+		92A385D1298BA3EE003973EA /* ProdukTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385D0298BA3EE003973EA /* ProdukTableViewCell.swift */; };
+		92A385D3298DED27003973EA /* TambahProdukViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385D2298DED27003973EA /* TambahProdukViewController.swift */; };
+		92A385D8298DF0FA003973EA /* ProdukViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385D7298DF0FA003973EA /* ProdukViewModel.swift */; };
+		92A385DC298DF121003973EA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385DB298DF121003973EA /* HomeViewModel.swift */; };
+		92A385DE298DF12D003973EA /* PembeliViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385DD298DF12D003973EA /* PembeliViewModel.swift */; };
+		92A385E0298DF13E003973EA /* BarangMasukViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385DF298DF13E003973EA /* BarangMasukViewModel.swift */; };
+		92A385E2298DF169003973EA /* TransaksiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385E1298DF169003973EA /* TransaksiViewModel.swift */; };
+		92A385E4298DF179003973EA /* StockOpnameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385E3298DF179003973EA /* StockOpnameViewModel.swift */; };
+		92A385E6298DF18F003973EA /* LaporanPenjualanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385E5298DF18F003973EA /* LaporanPenjualanViewModel.swift */; };
+		92A385E8298DF1A0003973EA /* LaporanPembelianViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385E7298DF1A0003973EA /* LaporanPembelianViewModel.swift */; };
+		92A385EA298DF1AF003973EA /* LaporanPiutangViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385E9298DF1AF003973EA /* LaporanPiutangViewModel.swift */; };
+		92A385EC298DFAD7003973EA /* TambahProdukViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385EB298DFAD7003973EA /* TambahProdukViewModel.swift */; };
+		92A385EE299126A3003973EA /* TambahPembeliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385ED299126A3003973EA /* TambahPembeliViewController.swift */; };
+		92A385F129912888003973EA /* TambahPembeliViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385F029912888003973EA /* TambahPembeliViewModel.swift */; };
+		92A385F329912FB3003973EA /* PembeliTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A385F229912FB3003973EA /* PembeliTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A385872988FB76003973EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A385652988FB74003973EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A3856C2988FB74003973EA;
+			remoteInfo = TugasAkhir;
+		};
+		92A385912988FB76003973EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A385652988FB74003973EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A3856C2988FB74003973EA;
+			remoteInfo = TugasAkhir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923E9D6E2991392100F69722 /* BarangMasukTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangMasukTableViewCell.swift; sourceTree = "<group>"; };
+		923E9D702991400A00F69722 /* TransaksiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiTableViewCell.swift; sourceTree = "<group>"; };
+		923E9D722992544700F69722 /* TambahBarangMasukViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahBarangMasukViewController.swift; sourceTree = "<group>"; };
+		923E9D742992551200F69722 /* TambahBarangMasukViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahBarangMasukViewModel.swift; sourceTree = "<group>"; };
+		923E9D76299259FF00F69722 /* StockOpnameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOpnameTableViewCell.swift; sourceTree = "<group>"; };
+		923E9D782992812500F69722 /* LaporanPiutangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPiutangTableViewCell.swift; sourceTree = "<group>"; };
+		9290FD052995332C005CD4B4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9290FD072996605E005CD4B4 /* PembeliCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembeliCoreData.swift; sourceTree = "<group>"; };
+		92A3856D2988FB74003973EA /* TugasAkhir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TugasAkhir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A385702988FB74003973EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92A385742988FB74003973EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92A385772988FB74003973EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A3857A2988FB74003973EA /* TugasAkhir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TugasAkhir.xcdatamodel; sourceTree = "<group>"; };
+		92A3857C2988FB76003973EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A3857F2988FB76003973EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92A385812988FB76003973EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A385862988FB76003973EA /* TugasAkhirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TugasAkhirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A3858A2988FB76003973EA /* TugasAkhirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasAkhirTests.swift; sourceTree = "<group>"; };
+		92A385902988FB76003973EA /* TugasAkhirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TugasAkhirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A385942988FB76003973EA /* TugasAkhirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasAkhirUITests.swift; sourceTree = "<group>"; };
+		92A385962988FB76003973EA /* TugasAkhirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TugasAkhirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92A385AF29894622003973EA /* ProdukViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdukViewController.swift; sourceTree = "<group>"; };
+		92A385B12989462F003973EA /* PembeliViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembeliViewController.swift; sourceTree = "<group>"; };
+		92A385B32989463B003973EA /* TransaksiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiViewController.swift; sourceTree = "<group>"; };
+		92A385B529894646003973EA /* StockOpnameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOpnameViewController.swift; sourceTree = "<group>"; };
+		92A385B729894654003973EA /* LaporanPenjualanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPenjualanViewController.swift; sourceTree = "<group>"; };
+		92A385B92989465F003973EA /* LaporanPembeliViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPembeliViewController.swift; sourceTree = "<group>"; };
+		92A385BB2989466A003973EA /* LaporanPiutangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPiutangViewController.swift; sourceTree = "<group>"; };
+		92A385C029894B3E003973EA /* HelloCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		92A385C7298B8468003973EA /* BarangMasukViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangMasukViewController.swift; sourceTree = "<group>"; };
+		92A385CA298B8650003973EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92A385CE298B9820003973EA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		92A385D0298BA3EE003973EA /* ProdukTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdukTableViewCell.swift; sourceTree = "<group>"; };
+		92A385D2298DED27003973EA /* TambahProdukViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahProdukViewController.swift; sourceTree = "<group>"; };
+		92A385D7298DF0FA003973EA /* ProdukViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdukViewModel.swift; sourceTree = "<group>"; };
+		92A385DB298DF121003973EA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		92A385DD298DF12D003973EA /* PembeliViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembeliViewModel.swift; sourceTree = "<group>"; };
+		92A385DF298DF13E003973EA /* BarangMasukViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangMasukViewModel.swift; sourceTree = "<group>"; };
+		92A385E1298DF169003973EA /* TransaksiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiViewModel.swift; sourceTree = "<group>"; };
+		92A385E3298DF179003973EA /* StockOpnameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOpnameViewModel.swift; sourceTree = "<group>"; };
+		92A385E5298DF18F003973EA /* LaporanPenjualanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPenjualanViewModel.swift; sourceTree = "<group>"; };
+		92A385E7298DF1A0003973EA /* LaporanPembelianViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPembelianViewModel.swift; sourceTree = "<group>"; };
+		92A385E9298DF1AF003973EA /* LaporanPiutangViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPiutangViewModel.swift; sourceTree = "<group>"; };
+		92A385EB298DFAD7003973EA /* TambahProdukViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahProdukViewModel.swift; sourceTree = "<group>"; };
+		92A385ED299126A3003973EA /* TambahPembeliViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahPembeliViewController.swift; sourceTree = "<group>"; };
+		92A385F029912888003973EA /* TambahPembeliViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahPembeliViewModel.swift; sourceTree = "<group>"; };
+		92A385F229912FB3003973EA /* PembeliTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembeliTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A3856A2988FB74003973EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A385832988FB76003973EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A3858D2988FB76003973EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A385642988FB74003973EA = {
+			isa = PBXGroup;
+			children = (
+				92A3856F2988FB74003973EA /* TugasAkhir */,
+				92A385892988FB76003973EA /* TugasAkhirTests */,
+				92A385932988FB76003973EA /* TugasAkhirUITests */,
+				92A3856E2988FB74003973EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A3856E2988FB74003973EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A3856D2988FB74003973EA /* TugasAkhir.app */,
+				92A385862988FB76003973EA /* TugasAkhirTests.xctest */,
+				92A385902988FB76003973EA /* TugasAkhirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A3856F2988FB74003973EA /* TugasAkhir */ = {
+			isa = PBXGroup;
+			children = (
+				92A385D6298DF0BE003973EA /* View Model */,
+				92A385A72989459B003973EA /* View */,
+				92A385702988FB74003973EA /* AppDelegate.swift */,
+				92A385742988FB74003973EA /* ViewController.swift */,
+				92A385762988FB74003973EA /* Main.storyboard */,
+				92A3857C2988FB76003973EA /* Assets.xcassets */,
+				92A3857E2988FB76003973EA /* LaunchScreen.storyboard */,
+				92A385BF29894B3E003973EA /* HelloCoreDataModel.xcdatamodeld */,
+				92A385812988FB76003973EA /* Info.plist */,
+				92A385792988FB74003973EA /* TugasAkhir.xcdatamodeld */,
+				9290FD052995332C005CD4B4 /* CoreDataManager.swift */,
+				9290FD072996605E005CD4B4 /* PembeliCoreData.swift */,
+			);
+			path = TugasAkhir;
+			sourceTree = "<group>";
+		};
+		92A385892988FB76003973EA /* TugasAkhirTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A3858A2988FB76003973EA /* TugasAkhirTests.swift */,
+			);
+			path = TugasAkhirTests;
+			sourceTree = "<group>";
+		};
+		92A385932988FB76003973EA /* TugasAkhirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92A385942988FB76003973EA /* TugasAkhirUITests.swift */,
+				92A385962988FB76003973EA /* TugasAkhirUITestsLaunchTests.swift */,
+			);
+			path = TugasAkhirUITests;
+			sourceTree = "<group>";
+		};
+		92A385A72989459B003973EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92A385C9298B8640003973EA /* Home */,
+				92A385C6298B8441003973EA /* BarangMasuk */,
+				92A385AE298945EA003973EA /* LaporanPiutang */,
+				92A385AD298945E2003973EA /* LaporanPembeli */,
+				92A385AC298945DC003973EA /* LaporanPenjualan */,
+				92A385AB298945D3003973EA /* StockOpname */,
+				92A385AA298945C2003973EA /* Transaksi */,
+				92A385A9298945BC003973EA /* Pembeli */,
+				92A385A8298945B4003973EA /* Produk */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92A385A8298945B4003973EA /* Produk */ = {
+			isa = PBXGroup;
+			children = (
+				92A385AF29894622003973EA /* ProdukViewController.swift */,
+				92A385D0298BA3EE003973EA /* ProdukTableViewCell.swift */,
+				92A385D2298DED27003973EA /* TambahProdukViewController.swift */,
+			);
+			path = Produk;
+			sourceTree = "<group>";
+		};
+		92A385A9298945BC003973EA /* Pembeli */ = {
+			isa = PBXGroup;
+			children = (
+				92A385B12989462F003973EA /* PembeliViewController.swift */,
+				92A385ED299126A3003973EA /* TambahPembeliViewController.swift */,
+				92A385F229912FB3003973EA /* PembeliTableViewCell.swift */,
+			);
+			path = Pembeli;
+			sourceTree = "<group>";
+		};
+		92A385AA298945C2003973EA /* Transaksi */ = {
+			isa = PBXGroup;
+			children = (
+				92A385B32989463B003973EA /* TransaksiViewController.swift */,
+				923E9D702991400A00F69722 /* TransaksiTableViewCell.swift */,
+			);
+			path = Transaksi;
+			sourceTree = "<group>";
+		};
+		92A385AB298945D3003973EA /* StockOpname */ = {
+			isa = PBXGroup;
+			children = (
+				92A385B529894646003973EA /* StockOpnameViewController.swift */,
+				923E9D76299259FF00F69722 /* StockOpnameTableViewCell.swift */,
+			);
+			path = StockOpname;
+			sourceTree = "<group>";
+		};
+		92A385AC298945DC003973EA /* LaporanPenjualan */ = {
+			isa = PBXGroup;
+			children = (
+				92A385B729894654003973EA /* LaporanPenjualanViewController.swift */,
+			);
+			path = LaporanPenjualan;
+			sourceTree = "<group>";
+		};
+		92A385AD298945E2003973EA /* LaporanPembeli */ = {
+			isa = PBXGroup;
+			children = (
+				92A385B92989465F003973EA /* LaporanPembeliViewController.swift */,
+			);
+			path = LaporanPembeli;
+			sourceTree = "<group>";
+		};
+		92A385AE298945EA003973EA /* LaporanPiutang */ = {
+			isa = PBXGroup;
+			children = (
+				92A385BB2989466A003973EA /* LaporanPiutangViewController.swift */,
+				923E9D782992812500F69722 /* LaporanPiutangTableViewCell.swift */,
+			);
+			path = LaporanPiutang;
+			sourceTree = "<group>";
+		};
+		92A385C6298B8441003973EA /* BarangMasuk */ = {
+			isa = PBXGroup;
+			children = (
+				92A385C7298B8468003973EA /* BarangMasukViewController.swift */,
+				923E9D6E2991392100F69722 /* BarangMasukTableViewCell.swift */,
+				923E9D722992544700F69722 /* TambahBarangMasukViewController.swift */,
+			);
+			path = BarangMasuk;
+			sourceTree = "<group>";
+		};
+		92A385C9298B8640003973EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				92A385CA298B8650003973EA /* HomeViewController.swift */,
+				92A385CE298B9820003973EA /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		92A385D6298DF0BE003973EA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				92A385D7298DF0FA003973EA /* ProdukViewModel.swift */,
+				92A385DB298DF121003973EA /* HomeViewModel.swift */,
+				92A385DD298DF12D003973EA /* PembeliViewModel.swift */,
+				92A385DF298DF13E003973EA /* BarangMasukViewModel.swift */,
+				92A385E1298DF169003973EA /* TransaksiViewModel.swift */,
+				92A385E3298DF179003973EA /* StockOpnameViewModel.swift */,
+				92A385E5298DF18F003973EA /* LaporanPenjualanViewModel.swift */,
+				92A385E7298DF1A0003973EA /* LaporanPembelianViewModel.swift */,
+				92A385E9298DF1AF003973EA /* LaporanPiutangViewModel.swift */,
+				92A385EB298DFAD7003973EA /* TambahProdukViewModel.swift */,
+				92A385F029912888003973EA /* TambahPembeliViewModel.swift */,
+				923E9D742992551200F69722 /* TambahBarangMasukViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A3856C2988FB74003973EA /* TugasAkhir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A3859A2988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhir" */;
+			buildPhases = (
+				92A385692988FB74003973EA /* Sources */,
+				92A3856A2988FB74003973EA /* Frameworks */,
+				92A3856B2988FB74003973EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TugasAkhir;
+			productName = TugasAkhir;
+			productReference = 92A3856D2988FB74003973EA /* TugasAkhir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A385852988FB76003973EA /* TugasAkhirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A3859D2988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhirTests" */;
+			buildPhases = (
+				92A385822988FB76003973EA /* Sources */,
+				92A385832988FB76003973EA /* Frameworks */,
+				92A385842988FB76003973EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A385882988FB76003973EA /* PBXTargetDependency */,
+			);
+			name = TugasAkhirTests;
+			productName = TugasAkhirTests;
+			productReference = 92A385862988FB76003973EA /* TugasAkhirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92A3858F2988FB76003973EA /* TugasAkhirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A385A02988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhirUITests" */;
+			buildPhases = (
+				92A3858C2988FB76003973EA /* Sources */,
+				92A3858D2988FB76003973EA /* Frameworks */,
+				92A3858E2988FB76003973EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A385922988FB76003973EA /* PBXTargetDependency */,
+			);
+			name = TugasAkhirUITests;
+			productName = TugasAkhirUITests;
+			productReference = 92A385902988FB76003973EA /* TugasAkhirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A385652988FB74003973EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					92A3856C2988FB74003973EA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					92A385852988FB76003973EA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 92A3856C2988FB74003973EA;
+					};
+					92A3858F2988FB76003973EA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 92A3856C2988FB74003973EA;
+					};
+				};
+			};
+			buildConfigurationList = 92A385682988FB74003973EA /* Build configuration list for PBXProject "TugasAkhir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A385642988FB74003973EA;
+			productRefGroup = 92A3856E2988FB74003973EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A3856C2988FB74003973EA /* TugasAkhir */,
+				92A385852988FB76003973EA /* TugasAkhirTests */,
+				92A3858F2988FB76003973EA /* TugasAkhirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A3856B2988FB74003973EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A385802988FB76003973EA /* LaunchScreen.storyboard in Resources */,
+				92A3857D2988FB76003973EA /* Assets.xcassets in Resources */,
+				92A385782988FB74003973EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A385842988FB76003973EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A3858E2988FB76003973EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A385692988FB74003973EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923E9D77299259FF00F69722 /* StockOpnameTableViewCell.swift in Sources */,
+				92A385752988FB74003973EA /* ViewController.swift in Sources */,
+				92A385C8298B8468003973EA /* BarangMasukViewController.swift in Sources */,
+				923E9D732992544700F69722 /* TambahBarangMasukViewController.swift in Sources */,
+				923E9D792992812500F69722 /* LaporanPiutangTableViewCell.swift in Sources */,
+				92A385D3298DED27003973EA /* TambahProdukViewController.swift in Sources */,
+				9290FD062995332C005CD4B4 /* CoreDataManager.swift in Sources */,
+				92A385D8298DF0FA003973EA /* ProdukViewModel.swift in Sources */,
+				92A385712988FB74003973EA /* AppDelegate.swift in Sources */,
+				92A385E4298DF179003973EA /* StockOpnameViewModel.swift in Sources */,
+				92A385F329912FB3003973EA /* PembeliTableViewCell.swift in Sources */,
+				92A385F129912888003973EA /* TambahPembeliViewModel.swift in Sources */,
+				923E9D6F2991392100F69722 /* BarangMasukTableViewCell.swift in Sources */,
+				92A385E0298DF13E003973EA /* BarangMasukViewModel.swift in Sources */,
+				92A385B42989463B003973EA /* TransaksiViewController.swift in Sources */,
+				92A385EC298DFAD7003973EA /* TambahProdukViewModel.swift in Sources */,
+				92A385DE298DF12D003973EA /* PembeliViewModel.swift in Sources */,
+				92A385B029894622003973EA /* ProdukViewController.swift in Sources */,
+				92A385E8298DF1A0003973EA /* LaporanPembelianViewModel.swift in Sources */,
+				9290FD082996605E005CD4B4 /* PembeliCoreData.swift in Sources */,
+				92A385CB298B8650003973EA /* HomeViewController.swift in Sources */,
+				92A385E6298DF18F003973EA /* LaporanPenjualanViewModel.swift in Sources */,
+				92A385DC298DF121003973EA /* HomeViewModel.swift in Sources */,
+				92A385EA298DF1AF003973EA /* LaporanPiutangViewModel.swift in Sources */,
+				92A385B22989462F003973EA /* PembeliViewController.swift in Sources */,
+				92A385EE299126A3003973EA /* TambahPembeliViewController.swift in Sources */,
+				92A385B829894654003973EA /* LaporanPenjualanViewController.swift in Sources */,
+				923E9D752992551200F69722 /* TambahBarangMasukViewModel.swift in Sources */,
+				92A385D1298BA3EE003973EA /* ProdukTableViewCell.swift in Sources */,
+				92A385BC2989466A003973EA /* LaporanPiutangViewController.swift in Sources */,
+				92A385B629894646003973EA /* StockOpnameViewController.swift in Sources */,
+				92A3857B2988FB74003973EA /* TugasAkhir.xcdatamodeld in Sources */,
+				923E9D712991400A00F69722 /* TransaksiTableViewCell.swift in Sources */,
+				92A385E2298DF169003973EA /* TransaksiViewModel.swift in Sources */,
+				92A385BA2989465F003973EA /* LaporanPembeliViewController.swift in Sources */,
+				92A385CF298B9820003973EA /* HomeTableViewCell.swift in Sources */,
+				92A385C129894B3E003973EA /* HelloCoreDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A385822988FB76003973EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A3858B2988FB76003973EA /* TugasAkhirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A3858C2988FB76003973EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A385952988FB76003973EA /* TugasAkhirUITests.swift in Sources */,
+				92A385972988FB76003973EA /* TugasAkhirUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A385882988FB76003973EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A3856C2988FB74003973EA /* TugasAkhir */;
+			targetProxy = 92A385872988FB76003973EA /* PBXContainerItemProxy */;
+		};
+		92A385922988FB76003973EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A3856C2988FB74003973EA /* TugasAkhir */;
+			targetProxy = 92A385912988FB76003973EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A385762988FB74003973EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A385772988FB74003973EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92A3857E2988FB76003973EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A3857F2988FB76003973EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A385982988FB76003973EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92A385992988FB76003973EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A3859B2988FB76003973EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TugasAkhir/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92A3859C2988FB76003973EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TugasAkhir/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92A3859E2988FB76003973EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TugasAkhir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TugasAkhir";
+			};
+			name = Debug;
+		};
+		92A3859F2988FB76003973EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TugasAkhir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TugasAkhir";
+			};
+			name = Release;
+		};
+		92A385A12988FB76003973EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TugasAkhir;
+			};
+			name = Debug;
+		};
+		92A385A22988FB76003973EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSV8545Q67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cip.TugasAkhirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TugasAkhir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A385682988FB74003973EA /* Build configuration list for PBXProject "TugasAkhir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A385982988FB76003973EA /* Debug */,
+				92A385992988FB76003973EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A3859A2988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A3859B2988FB76003973EA /* Debug */,
+				92A3859C2988FB76003973EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A3859D2988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A3859E2988FB76003973EA /* Debug */,
+				92A3859F2988FB76003973EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A385A02988FB76003973EA /* Build configuration list for PBXNativeTarget "TugasAkhirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A385A12988FB76003973EA /* Debug */,
+				92A385A22988FB76003973EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92A385792988FB74003973EA /* TugasAkhir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92A3857A2988FB74003973EA /* TugasAkhir.xcdatamodel */,
+			);
+			currentVersion = 92A3857A2988FB74003973EA /* TugasAkhir.xcdatamodel */;
+			path = TugasAkhir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		92A385BF29894B3E003973EA /* HelloCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92A385C029894B3E003973EA /* HelloCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 92A385C029894B3E003973EA /* HelloCoreDataModel.xcdatamodel */;
+			name = HelloCoreDataModel.xcdatamodeld;
+			path = ../../HelloCoreData/HelloCoreData/HelloCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92A385652988FB74003973EA /* Project object */;
+}
